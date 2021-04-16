@@ -7,46 +7,7 @@ state("fceux", "v2.2.3")
     byte pauseComplete: 0x3B1388, 0x00EB;
     byte BikeGlitch:    0x3B1388, 0x0650;
     byte BikeGlitch2:   0x3B1388, 0x0318;
-    uint screen:        0x3B1388, 0x005A;
-    uint warpScreen:    0x3B1388, 0x006A;
-}
 
-state("fceux", "v2.3.0")
-{
-    byte level:         0x44962C, 0x0010;
-    byte start:         0x44962C, 0x03B5;
-    byte start2:        0x44962C, 0x03B6;
-    byte complete:      0x44962C, 0x0033;
-    byte pauseComplete: 0x44962C, 0x00EB;
-    byte BikeGlitch:    0x44962C, 0x0650;
-    byte BikeGlitch2:   0x44962C, 0x0318;
-    uint screen:        0x44962C, 0x005A;
-    uint warpScreen:    0x44962C, 0x006A;
-}
-
-state("nestopia")
-{
-    byte level:         "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x078;
-    byte start:         "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x41D;
-    byte start2:        "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x41E;
-    byte complete:      "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x09B;
-    byte pauseComplete: "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x153;
-    byte BikeGlitch:    "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x6B8;
-    byte BikeGlitch2:   "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x380;
-    uint screen:        "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x0C2;
-    uint warpScreen:    "nestopia.exe", 0x1B2BCC, 0x00, 0x08, 0x0C, 0x0C, 0x0D2;
-}
-
-state("mednafen")
-{
-    byte level:         "mednafen.exe", 0xBE1CF0;
-    byte start:         "mednafen.exe", 0xBE2095;
-    byte start2:        "mednafen.exe", 0xBE2096;
-    byte complete:      "mednafen.exe", 0xBE1D13;
-    byte pauseComplete: "mednafen.exe", 0xBE1DCB;
-    byte BikeGlitch:    "mednafen.exe", 0xBE2330;
-    byte BikeGlitch2:   "mednafen.exe", 0xBE1FF8;
-    uint screen:        "mednafen.exe", 0xBE1D3A;
     uint warpScreen:    "mednafen.exe", 0xBE1D4A;
 }
 
