@@ -1,7 +1,7 @@
 
 state("mesen", "v0.9.9") 
 {
-    byte level:         "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x010;
+    byte level:         "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x012;
     byte start:         "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x3B5;
     byte start2:        "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x3B6;
     byte complete:      "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x033;
