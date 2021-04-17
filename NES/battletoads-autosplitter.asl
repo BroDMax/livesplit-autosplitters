@@ -20,7 +20,7 @@ startup
     settings.Add("lvl1", true, "Ragnarok's Canyon", "gLevels");
     settings.Add("lvl2", true, "Wookie Hole", "gLevels");
     settings.Add("lvl3", true, "Turbo Tunnel", "gLevels");
-    settings.Add("lvl4", true, "Arctic Caverns", "gLevels");
+    settings.Add("lvl4", ue, "Arctic Caverns", "gLevels");
     settings.Add("lvl5", true, "Surf City", "gLevels");
     settings.Add("lvl6", true, "Karnath's Lair", "gLevels");
     settings.Add("lvl7", true, "Volkmire's Inferno", "gLevels");
