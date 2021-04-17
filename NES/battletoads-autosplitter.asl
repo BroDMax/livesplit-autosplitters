@@ -9,7 +9,7 @@ state("mesen", "v0.9.9")
     byte BikeGlitch:    "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x650;
     byte BikeGlitch2:   "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x318;
     uint screen:        "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x052;
-    uint warpScreen:    "MesenCore.dll", 0x42E0F30, 0xB8, 0x58, 0x06;
+    uint warpScreen:    "Mesenore.dll", 0x42E0F30, 0xB8, 0x58, 0x06;
 }
 
 startup
