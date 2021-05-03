@@ -14,7 +14,7 @@ state("mesen", "v0.9.9")
 
 startup
 {
-    settings.Add("gLevels", true, "Levels");
+    settings.Add("gLevels", true, "Levels");erfdsf
     settings.Add("gWarps", true, "Warps");
 
     settings.Add("lvl1", true, "Ragnarok's Canyon", "gLevels");
